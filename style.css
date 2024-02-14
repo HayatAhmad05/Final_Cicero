@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,10 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    font-family: 'Roboto Mono', monospace;
 }
+
+
 
 .header::before{
     content: '';
@@ -58,6 +61,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 4rem;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #check {
@@ -486,6 +490,13 @@ nav a {
     .intro-page .sentence {
         font-size: 3rem;
         font-weight: 600;
+    }
+
+    .header a{
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 8px;
+    
     }
 
 

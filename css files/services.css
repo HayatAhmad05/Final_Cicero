@@ -1,6 +1,6 @@
 .services{
     text-align: center;
-    padding-top: 12vh;
+    padding-top: 1vh;
 }
   .services h1{
     display: inline-block;
@@ -8,6 +8,8 @@
     border-bottom: 4px solid #000000;
     font-size: 4rem;
     margin-top: 40px;
+    font-family: 'Roboto Mono', monospace;
+    
     
   }
   .cen{
@@ -27,7 +29,7 @@
     border-radius: 20px; /* Added border-radius */
   }
   .service:hover{
-    background: #ddd;
+    background: rgba(0, 0, 0, 0.1);
   }
   .service i{
     color: #000000;
@@ -35,17 +37,19 @@
     margin-bottom: 30px;
   }
   .service h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 500;
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
   }
   .service p{
     padding-top: 1vh;
     color: gray;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
     font-family: 'Roboto Mono', monospace;
+    
   }
   
   @media only screen and (max-width: 768px) {

@@ -5,6 +5,7 @@
     overflow: hidden;
     overflow-x: hidden;
     padding-bottom: 5vh;
+    height: auto;
 }
 
 /* Styles for .team-row-1 and .team-row-2 */
@@ -34,6 +35,17 @@
     padding: 20px;
 }
 
+.our-team-1 img{
+    width:500px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.our-team-2 img{
+    height: auto;
+    width: 500px;
+}
+
 
 /* Styles for h1 in .team-column-1 and .team-column-4 */
 .team-column-1 h1,
@@ -43,20 +55,25 @@
 }
 
 /* Styles for .underline and .underline-2 in .team-column-1 and .team-column-4 */
-.team-column-1 h1 + .underline,
-.team-column-4 h1 + .underline-2 {
+.team-column-1 h1 + .underline{
     position: relative;
     margin: 10px auto;
     width: 60%; /* Adjust the width for the underline */
     height: 3px;
     background-color: #333;
 }
-
+.team-column-4 h1 + .underline-2{
+    position: relative;
+    margin: 10px auto;
+    width: 35%; /* Adjust the width for the underline */
+    height: 3px;
+    background-color: #333;
+}
 /* Styles for p in .team-column-1 and .team-column-4 */
 .team-column-1 p,
 .team-column-4 p {
     padding-top: 2vh;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 
 }
 
