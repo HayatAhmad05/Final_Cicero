@@ -32,7 +32,9 @@
     border: 0px solid #333; /* Add a border */
     border-radius: 30px; /* Round the edges */
     background: rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 3vh;
 }
 
 .our-team-1 img{
@@ -54,6 +56,11 @@
     margin-top: 20px; /* Adjust top margin */
 }
 
+.team-column-1 h5{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
 /* Styles for .underline and .underline-2 in .team-column-1 and .team-column-4 */
 .team-column-1 h1 + .underline{
     position: relative;
@@ -69,12 +76,25 @@
     height: 3px;
     background-color: #333;
 }
+
+.team-column-1 h5 + .underline-99{
+    position: relative;
+    margin: 10px auto;
+    width: 26%; /* Adjust the width for the underline */
+    height: 3px;
+    background-color: #333;
+}
 /* Styles for p in .team-column-1 and .team-column-4 */
 .team-column-1 p,
 .team-column-4 p {
     padding-top: 2vh;
     font-size: 1.3rem;
 
+}
+
+.team-column-2-about img{
+    width: 500px;
+    height: auto;
 }
 
 @media (min-width: 768px) {
@@ -102,3 +122,10 @@
         height: 0;
     }
 }
+
+
+
+
+
+
+  

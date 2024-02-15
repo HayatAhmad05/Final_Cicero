@@ -290,10 +290,7 @@ nav a {
     transition: width 0.3s ease;
   }
   
-  nav a:hover::before,
-  nav a:focus::before {
-    width: 100%;
-  }
+ 
   
   nav a:hover,
   nav a:focus {
